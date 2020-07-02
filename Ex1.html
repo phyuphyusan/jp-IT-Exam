@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Form Example</title>
+	<!-- JQuery -->
+	<!-- <script type="text/javascript" src="bootstrap/js/jquery.min.js"></script> -->
+	<!-- <script type="text/javascript" src="bootstrap/js/bootstrap.bundle.min.js"></script> -->
+	
+</head>
+<body>
+	<form>
+		<table border="1px" align="center" style="padding: 30px;">
+			<tbody>
+				<th align="center" colspan="2"><h2>Form Example</h2></th>
+				<tr>
+					<td><label>First Name*</label></td>
+					<td><input type="text" name="fname"></td>
+				</tr>
+				<tr>
+					<td><label>Last Name*</label></td>
+					<td><input type="text" name="lname"></td>
+				</tr>
+				<tr>
+					<td><label>Password*</label></td>
+					<td><input type="password" name="pw"></td>
+				</tr>
+				<tr>
+					<td><label>Comfirm Password*</label></td>
+					<td><input type="password" name="cpw"></td>
+				</tr>
+				<tr>
+					<td><label>Enter Your Hobbies*</label></td>
+					<td width="50px">
+						<select name="hobby">
+							<option>Travelling</option>
+							<option>Reading</option>
+							<option>Sharing</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td><label>Notified By Email*</label></td>
+					<td>
+						<input type="checkbox" name="nemail" checked="">
+					</td>
+					</tr>
+					<tr>
+						<td><label>Gender*</label></td>
+						<td>
+							<input type="radio" name="male" value="male">
+							Male<br>
+							<input type="radio" name="female" value="female">
+							Female
+						</td>
+					</tr>
+					<tr>
+						<td><label>Address*<br><i>(Please fill your address in: "no,street,state,city")</i></label></td>
+						<td><textarea name="address"></textarea></td>
+					</tr>
+					<tr>
+						<td><button type="submit">Submit Form</button></td>
+						<td><button type="reset">Clear Form</button></td>
+					</tr>
+				</tbody>
+		</table>
+	</form>
+</body>
+</html>
